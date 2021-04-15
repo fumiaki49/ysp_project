@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  margin-top: 20px;
+}
+
+.details ul {
+  list-style: decimal;
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+.details-picture {
+  margin-right: 20px;
+  width: 50%;
+}
+
+.details-text {
+  line-height: 18px;
+}
