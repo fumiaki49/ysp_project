@@ -19,6 +19,7 @@
 
 .default-page {
   position: relative;
+  color: #111;
 }
 
 /* ナビゲーション */
@@ -81,6 +82,18 @@
 
 .sns-box a:last-child {
   margin-right: 0;
+}
+
+.facebook, .instagram {
+  transition: color 0.3s;
+}
+
+.facebook:hover {
+  color: #1877f2;
+}
+
+.instagram:hover {
+  color: #CF2E92;
 }
 
 /* ヘッダー */
