@@ -105,9 +105,14 @@
 }
 
 .sub-title {
-  margin: 15px 0;
+  margin-top: 25px;
+  margin-bottom: 8px;
   font-size: 20px;
   color: rgb(38, 79, 155);
+}
+
+.sub-title:first-child {
+  margin-top: 15px;
 }
 
 .new-articles {
@@ -147,10 +152,21 @@
 }
 
 .article-info .category {
-  background-color: rgb(4, 221, 241);
   padding: 3px;
   color: #fff;
   transition: opacity 0.3s;
+}
+
+.blue-label {
+  background-color: rgb(4, 221, 241);
+}
+
+.pink-label {
+  background-color: rgb(240, 149, 164);
+}
+
+.green-label {
+  background-color: rgb(52, 136, 52);
 }
 
 .article-info .category:hover {
