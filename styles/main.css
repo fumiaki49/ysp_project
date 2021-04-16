@@ -90,9 +90,12 @@
 
 /* メイン */
 .content-area {
-  margin-top: 50px;
   min-height: 100vh;
   padding-bottom: 80px;
+}
+
+.default-section {
+  margin-top: 50px;
 }
 
 .section-title {
