@@ -4,7 +4,7 @@
 }
 
 .details ul {
-  list-style: decimal;
+  list-style: disc;
   margin-left: 20px;
   line-height: 30px;
 }
