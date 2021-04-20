@@ -35,6 +35,7 @@
 .global-navigation .logo-img{
   display: flex;
   align-items: center;
+  pointer-events: none;
 }
 
 .global-navigation .logo-img p {
