@@ -5,9 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="世界平和青年学生連合・滋賀連合会のホームページです。">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/about_us.css">
+  <script src="./js/dropdown.js"></script>
   <title>世界平和青年学生連合・滋賀連合会</title>
 </head>
 <body class="default-page">
@@ -17,20 +19,31 @@
       <p>世界平和青年学生連合・滋賀連合会</p>
     </div>
     <div class="links">
-      <div class="link-btns">
+      <ul class="link-btns">
         <a href="./index.html">
-          <p>HOME</p>
+          <li class="btn">HOME</li>
         </a>
         <a href="./about_us.html">
-          <p>ABOUT US</p>
+          <li class="btn">ABOUT US</li>
         </a>
-        <a>
+        <li class="btn" id="dropdown-menu">
           <p>PROJECT</p>
+          <ul class="dropdown">
+            <a href="./picebiwaichi.html">
+              <li>ピースビワイチ</li>
+            </a>
+            <a href="./wakuwaku.html">
+              <li>わくわくプロジェクト</li>
+            </a>
+            <a href="./futsul.html">
+              <li>チャリティーフットサル</li>
+            </a>
+          </ul>
+        </li>
+        <a href="./contact.html">
+          <li class="btn">CONTACT</li>
         </a>
-        <a href="">
-          <p>CONTACT</p>
-        </a>
-      </div>
+      </ul>
       <div class="sns-box">
         <a href="" class="instagram">
           <i class="fab fa-instagram"></i>

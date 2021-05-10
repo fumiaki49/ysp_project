@@ -60,14 +60,37 @@
   display: flex;
 }
 
-.global-navigation .link-btns a {
+.global-navigation .link-btns .btn {
   padding: 15px 70px;
+  transition: background-color 0.3s, color 0.3s;
+  position: relative;
+}
+
+.global-navigation .link-btns .btn:hover {
+  background-color: #fff;
+  color: rgb(38, 79, 155);
+}
+
+.global-navigation .link-btns .dropdown {
+  position: absolute;
+  text-align: center;
+  font-size: 13px;
+  width: 100%;
+  margin-top: 15px;
+  margin-left: -70px;
+}
+
+.global-navigation .link-btns .dropdown li {
+  display: none;
+  padding: 15px 10px;
+  background-color: #fff;
+  color: rgb(38, 79, 155);
   transition: background-color 0.3s, color 0.3s;
 }
 
-.global-navigation .link-btns a:hover {
-  background-color: #fff;
-  color: rgb(38, 79, 155);
+.global-navigation .link-btns .dropdown li:hover {
+  background-color: rgb(38, 79, 155);
+  color: #fff;
 }
 
 .sns-box {
